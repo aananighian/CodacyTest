@@ -19,6 +19,10 @@ public class PersonManager {
     }
 
     private Person findPeron(int id) {
+        if (id < 0) {
+            throw new IllegalArgumentException("Invalid id");
+        }
+
         return new Person("Bob", "Smith");
     }
 }
