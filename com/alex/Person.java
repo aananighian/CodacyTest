@@ -6,6 +6,7 @@ public class Person {
     private String lastName;
 
     public Person() {
+        // Purposely left empty in case of use by framework
     }
 
     public Person(String firstName, String lastName) {
