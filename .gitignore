@@ -22,3 +22,4 @@ dist
 coverage-error.log
 /*.gz
 /web/project
+/out
