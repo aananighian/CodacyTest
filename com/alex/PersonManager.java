@@ -14,8 +14,7 @@ public class PersonManager {
      */
     public Person updateFirstName(int id, String firstName) {
         Person person = findPeron(id);
-        String newFirstName = firstName;
-        person.setFirstName(newFirstName);
+        person.setFirstName(firstName);
         return person;
     }
 
