@@ -12,7 +12,6 @@ public class Main {
      */
     public static void main(String[] args) {
         PersonManager personManager = new PersonManager();
-        Person person = personManager.updateFirstName(1, "Jack");
-        System.out.println(person.toString());
+        personManager.updateFirstName(1, "Jack");
     }
 }
